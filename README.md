@@ -57,7 +57,7 @@ $ usermod -a -G www-data pvw-user
 
 Check user group
 
-![user group status](.gitbook/assets/capture.JPG)
+![](.gitbook/assets/capture1.JPG)
 
 {% hint style="info" %}
 www-data is default user group of Apache 
@@ -239,17 +239,17 @@ $ sudo chmod u+x /data/pvw/bin/start.sh
 
 Then, you need the user pvw-user to execute **/data/pvw/bin/start.sh** when it is properly logged in with its display setup…Successful running start should not be any error, otherwise you would see info presented like this:
 
-![](.gitbook/assets/capture%20%286%29.JPG)
+![](.gitbook/assets/capture2.JPG)
 
 {% hint style="info" %}
 Error information of start.sh \(pvpython/launcher.py\) cloud be found in **/data/pvw/logs**
 {% endhint %}
 
-![/data/pvw/bin/start.sh](.gitbook/assets/capture%20%284%29.JPG)
+![](.gitbook/assets/capture3.JPG)
 
 If launcher run up, you would find 8080 port is LISTEN status
 
-![](.gitbook/assets/capture%20%281%29.JPG)
+![](.gitbook/assets/capture4.JPG)
 
 ## Configuring Apache
 
@@ -429,11 +429,11 @@ $ sudo chown -R www-data:www-data /data/www
 
 ## Successful running up status of ParaViewWeb 
 
-![Process status of pvpython](.gitbook/assets/capture%20%283%29.JPG)
+![](.gitbook/assets/capture.JPG)
 
-![80 Port status](.gitbook/assets/capture%20%282%29.JPG)
+![](.gitbook/assets/capture6.JPG)
 
-![80 port status](.gitbook/assets/capture%20%285%29.JPG)
+![](.gitbook/assets/capture7.JPG)
 
-![Browser view](.gitbook/assets/capture%20%289%29.JPG)
+![](.gitbook/assets/capture8.JPG)
 
